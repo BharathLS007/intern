@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+
+
+.container{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin: 20px ;
+    flex-direction: row;
+    border: 2px solid black;
+    display: flex;
+    background-color: rgba(61, 123, 198, 0.8);
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: 0px 100px 0px 40px;
+}
+.btn{
+    background-color: rgb(255, 0, 212);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
