@@ -30,36 +30,23 @@ li {
 span {
     margin-left: 5px;
 }
-
-.card-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .card {
-    max-width: 300px;
+   
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    height: 100%;
+    width: 50%;
 }
 
-.card img {
-    width: 100%;
-    height: auto;
-}
 
 .card-content {
     padding: 15px;
 }
 
-.card h2 {
+.card h3 {
     font-size: 1.5em;
-    margin: 0 0 10px 0;
-}
-
-.card p {
-    font-size: 1em;
     margin: 0 0 10px 0;
 }
