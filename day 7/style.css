@@ -6,6 +6,8 @@
 }
 :root{
     --nav-color-background:#050d18;
+    --font-color:white;
+
 }
 
 img{
@@ -22,7 +24,8 @@ border-radius: 50% ;
 }
 nav{
     margin: 50px;
-    
+    height: 100vh;
+ 
 }
 .ctrl{
     background-color: var(--nav-color-background);
@@ -31,7 +34,6 @@ nav{
     margin-left: 40px;
     font-size: 20px;
     font-weight: bolder;
-
 }
 
 .header-social{
@@ -46,4 +48,12 @@ nav{
     flex-direction: column;
     gap: 50px;
     margin-top: 30px;
+}
+
+
+.profile{
+  border-radius: 0%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
