@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    
+}
+.content{
+    display: flex;
+
+}
+.right-content{
+    display: flex;
+    padding-left: 500px; 
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.big-text{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.medium-text{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+input{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 2px;
+}
