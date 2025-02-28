@@ -61,3 +61,23 @@ span {
     border-radius: 5px;
     width: 300px;
 }
+
+
+.container{
+    display: flex;
+}
+
+.cards{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+
+.card{
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+    margin: 5px;
+}
