@@ -10,7 +10,7 @@
 }
 
 img{
-margin: 15px;
+margin: 15px 40px 30px 40px;
 display: block;
 width: 120px;
 border:8px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -31,7 +31,7 @@ nav{
     background-color: var(--nav-color-background);
 }
 .name{
-    margin-left: 40px;
+    margin-left:60px;
     font-size: 20px;
     font-weight: bolder;
     color: var(--nav-content);
@@ -40,7 +40,7 @@ nav{
 .header-social{
     display: flex;
     gap: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 20px;
 }
 
@@ -48,7 +48,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .profile{
