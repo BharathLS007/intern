@@ -6,8 +6,7 @@
 }
 :root{
     --nav-color-background:#050d18;
-    --font-color:white;
-
+    --nav-content:white;
 }
 
 img{
@@ -17,10 +16,11 @@ width: 120px;
 border:8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 border-radius: 50% ;
 }
-
+a{
+    color: var(--nav-content);
+}
 .main-container{
     display: flex;
-
 }
 nav{
     margin: 50px;
@@ -34,6 +34,7 @@ nav{
     margin-left: 40px;
     font-size: 20px;
     font-weight: bolder;
+    color: var(--nav-content);
 }
 
 .header-social{
@@ -49,7 +50,6 @@ nav{
     gap: 50px;
     margin-top: 30px;
 }
-
 
 .profile{
   border-radius: 0%;
