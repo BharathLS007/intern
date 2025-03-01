@@ -92,3 +92,16 @@ h3{
      width: 30%;
      margin: 40px 0px 0px 0px;
 }
+
+.contactpage{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-page-content{
+    margin: 40px 30px ;
+}
+
+.contact-page-content h3{
+    font-size: 25px;
+}
