@@ -22,7 +22,7 @@ a{
 .main-container{
     display: flex;
     height: 100vh;
-    overflow: hidden;
+  
 }
 nav{
     margin: 50px;
@@ -32,6 +32,9 @@ nav{
 .ctrl{
     background-color: var(--nav-color-background);
     flex: 0 0 250px;
+    position: fixed;
+    height: 100vh; 
+    width: 250px; 
 }
 .name{
     margin-left:60px;
@@ -55,13 +58,37 @@ nav{
 }
 
 .profile{
-  border-radius: 0%;
-  height: 100%;
-  width: 100%;
-  margin: 0;
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 .theme {
     flex: 1;
     overflow-y: auto;
+    margin-left: 250px;
+}
+
+/* second page*/
+
+.second-page{
+    display: flex;
+    margin: 5% 25%;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.second-page p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.second-page img{
+    border-radius: 0%;
+     height: auto;
+     width: 30%;
+     margin: 40px 0px 0px 0px;
 }
