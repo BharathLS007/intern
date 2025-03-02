@@ -25,7 +25,7 @@ a{
   
 }
 nav{
-    margin: 50px;
+    margin: 40px;
     height: 100vh;
     overflow-y: auto;
 }
@@ -33,8 +33,7 @@ nav{
     background-color: var(--nav-color-background);
     flex: 0 0 250px;
     position: fixed;
-    height: 100vh; 
-    width: 250px; 
+    height: 100vh;     
 }
 .name{
     margin-left:60px;
@@ -89,7 +88,7 @@ h3{
 .second-page img{
     border-radius: 0%;
      height: auto;
-     width: 30%;
+     width: 40%;
      margin: 40px 0px 0px 0px;
 }
 
@@ -104,4 +103,12 @@ h3{
 
 .contact-page-content h3{
     font-size: 25px;
+}
+p{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
 }
