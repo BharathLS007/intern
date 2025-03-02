@@ -111,4 +111,18 @@ p{
 .row{
     display: flex;
     flex-direction: row;
+    margin: 30px 400px 0px 0px;
+    font-size: 20px;
+    width: 100%;
+    justify-content: stretch;
+    
+}
+
+.left{
+    margin-right: 50px;
+    
+}
+
+.right{
+    margin-left: 20%;
 }
