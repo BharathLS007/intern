@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --back:#ffffff;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hero{
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+ 
+
+}
+
+.hero .Container{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 2;
+    background: rgba(255,255,255,0.8);
+    border-top: #3bcbc0;
+    margin-left: 20%;
+    margin-right:20%;
+   
+}
+.btn{
+    background: #3bcbc0;
+    padding: 10px;
+    border-radius: 30px;
+}
