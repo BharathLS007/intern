@@ -2,11 +2,114 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-
+    list-style: none;
 }
-
+.global-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .thumb{
     font-size: 30px;
     margin: 1%;
     font-weight: 900;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+
+.contact{
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+    margin-right: 20%;
+
+}
+
+.contact a{
+    color: white;
+}
+
+.hero{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 120px;
+    font-family: poppins,sans-serif;
+    font-weight: 450;
+    letter-spacing: -7.58px;
+    margin-bottom: 5%;
+}
+
+
+.cards{
+ max-width: 1070px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ font-size: 40px;
+ color: white;
+ 
+}
+
+
+.hero-main-card-1{
+    background-color: #59330e;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 350px;
+    padding-bottom: 11px;
+    transform: rotate(-10deg);
+}
+
+.hero-card-1{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+}
+
+
+
+.hero-main-card-2{
+    background-color: #000000;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 350px;
+    padding-bottom: 11px;
+    transform: rotate(10deg);
+}
+
+.hero-card-2{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+}
+
+
+.hero-main-card-3{
+    background-color:#b4b186;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 350px;
+    padding-bottom: 11px;
+    margin-left: 2%;
+}
+
+.hero-card-3{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 32px;
+    padding-left: 40px;
 }
