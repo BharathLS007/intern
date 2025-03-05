@@ -35,12 +35,17 @@ img{
     z-index: 2;
     background: rgba(255,255,255,0.8);
     border-top: #3bcbc0;
-    margin-left: 20%;
-    margin-right:20%;
+    margin-left: 5%;
+    margin-right:5%;
    
 }
 .btn{
     background: #3bcbc0;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 10px 34px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    display: inline-block;    
+    letter-spacing: 2px;
+    margin: 10px;
 }
