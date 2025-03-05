@@ -32,7 +32,9 @@ ul{
 }
 .navbar a:hover{
     background-color: aquamarine;
-    border-radius: 10px;
+    border-radius: 60px;
+    
+    transform: rotate(360deg);
 }
 
 .navbar a{

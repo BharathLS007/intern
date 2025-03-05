@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+.global-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    
+}
+.thumb{
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+
+}
+ 
+
+.contact{
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+    margin-right: 20%;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+    border-radius: 60px;
+    
+    transform: rotate(360deg);
+}
+
+.navbar a{
+    color: black;
+}
+
+.contact a{
+    color: white;
+}
