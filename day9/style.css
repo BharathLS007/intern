@@ -98,7 +98,7 @@ ul{
     flex-direction: column;
     display: flex;
     max-width: 350px;
-    padding-bottom: 11px;
+    padding: 11px;
     transform: rotate(-10deg);
 }
 
@@ -109,7 +109,15 @@ ul{
     padding-left: 40px;
 }
 
-
+.hero-card-image-1 img{
+    border-radius: 26px;
+}
+.hero-card-image-2 img{
+    border-radius: 26px;
+}
+.hero-card-image-3 img{
+    border-radius: 26px;
+}
 
 .hero-main-card-2{
     background-color: #000000;
@@ -118,8 +126,8 @@ ul{
     flex-direction: column;
     display: flex;
     max-width: 350px;
-    padding-bottom: 11px;
-    transform: rotate(10deg);
+    padding: 11px;
+    transform: rotate(7deg);
 }
 
 .hero-card-2{
@@ -137,8 +145,10 @@ ul{
     flex-direction: column;
     display: flex;
     max-width: 350px;
-    padding-bottom: 11px;
+    padding: 11px;
     margin-left: 2%;
+    scroll-padding: 10px;
+   
 }
 
 .hero-card-3{
