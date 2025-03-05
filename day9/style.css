@@ -30,6 +30,10 @@ ul{
     border-radius: 10px;
     margin-right: 20%;
 }
+.navbar a:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
 
 .navbar a{
     color: black;
