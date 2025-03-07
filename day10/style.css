@@ -6,41 +6,29 @@
 }
 .global-navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 1%;
     
 }
-.thumb{
-    font-size: 30px;
-    margin-left: 10%;
-    font-weight: 900;
-}
+
 ul{
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 70px;
 
 }
- 
 
-.contact{
-    padding: 10px;
-    background: black;
-    border-radius: 10px;
-    margin-right: 20%;
+.navbar ul{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
 }
-.navbar a:hover{
-    background-color: aquamarine;
-    border-radius: 60px;
+
+.navbar li:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 30px;
     
-    transform: rotate(360deg);
-}
-
-.navbar a{
-    color: black;
-}
-
-.contact a{
-    color: white;
 }
