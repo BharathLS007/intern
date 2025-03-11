@@ -45,13 +45,23 @@ a{
     gap: 50px;
     margin-right: 5%;
 }
-
+.layoutgrid{
+    display: flex;
+    
+}
 .layoutfemale img{
-    object-fit: cover;
-    width:  35%;
-    height: 35%;
+    width:  63%;
+    height: 93%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 1%;
     border-radius: 3%;
+}
+
+.display3{
+    font-size:72px;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 15px;
+    letter-spacing: -.02em;
 }
