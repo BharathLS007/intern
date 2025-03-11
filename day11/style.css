@@ -59,9 +59,11 @@ a{
 }
 
 .display3{
-    font-size:72px;
+    font-size:80px;
     font-weight: 500;
     line-height: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.1em;
     letter-spacing: -.02em;
 }
