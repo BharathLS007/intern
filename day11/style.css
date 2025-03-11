@@ -37,9 +37,6 @@ a{
     gap: 50px;
 }
 
-.navbar {
-}
-
 .cart {
     display: flex;
     gap: 50px;
@@ -50,8 +47,8 @@ a{
     
 }
 .layoutfemale img{
-    width:  63%;
-    height: 93%;
+    width:  100%;
+    height: 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 1%;
@@ -59,11 +56,19 @@ a{
 }
 
 .display3{
-    font-size:80px;
+
+    font-size:70px;
     font-weight: 500;
     line-height: 2rem;
     margin-bottom: 0px;
-    margin-top: 0px;
-    line-height: 1.1em;
+    margin-left: 60px;
+    margin-top: 50px;
+    line-height: 0.4em;
     letter-spacing: -.02em;
+}
+
+.display4{
+    margin-left: 60px;
+    line-height: 0.4em;
+    margin-top: 30px;
 }
