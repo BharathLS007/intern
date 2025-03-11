@@ -42,6 +42,14 @@ a{
     gap: 50px;
     margin-right: 5%;
 }
+
+.cart span{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
 .layoutgrid{
     display: flex;
     
@@ -73,4 +81,9 @@ a{
     margin-top: 30px;
     font-weight: 100;
     font-size: 25px;
+}
+
+.info .cart{
+    margin-top: 20%;
+    margin-left: 15%;
 }
