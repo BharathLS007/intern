@@ -23,7 +23,13 @@ a{
 .navic{
     display: flex;
     justify-content: space-between;   
-    margin-left: 5%;
+    margin: 1%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    font: 17px ;
+    font-family: "satoshi varaiable",Arial, sans-serif;
 }
 
 .navbar ul{
@@ -38,4 +44,14 @@ a{
     display: flex;
     gap: 50px;
     margin-right: 5%;
+}
+
+.layoutfemale img{
+    object-fit: cover;
+    width:  35%;
+    height: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1%;
+    border-radius: 3%;
 }
