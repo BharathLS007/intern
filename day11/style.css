@@ -203,5 +203,101 @@ a{
     color: #666;
     line-height: 1.5;
   }
+
+
+  /* page 3*/
   
   
+  
+.pack {
+    display: flex;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.pack span{
+    margin-left: 10%;
+}
+
+#left-section {
+    width: 40%;
+    padding: 20px;
+}
+
+#package-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#package-box img {
+    width: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+h2 {
+   margin-left: 40%;
+}
+
+button {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #666;
+}
+
+#right-section {
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+}
+
+#metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 70%;
+    background: #eee;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.box span {
+    display: block;
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.highlight {
+    background: linear-gradient(to right, #dff2ff, #ffefe1);
+}
