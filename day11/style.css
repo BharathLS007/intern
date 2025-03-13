@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -328,4 +329,41 @@ button {
     line-height: 1.11;
     flex-direction: row;
     font-weight: 100;
+}
+
+.stats-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-card {
+    width: 200px;
+    height: 250px;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card h2 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.stats-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #f3f3f3, #f0c4ff);
 }
