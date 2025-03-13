@@ -211,11 +211,11 @@ a{
   
 .pack {
     display: flex;
-    width: 80%;
+    width: 100%;
     background: white;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 10%;
+
 }
 
 .pack span{
@@ -225,12 +225,14 @@ a{
 #left-section {
     width: 40%;
     padding: 20px;
+    margin-top: 1%;
 }
 
 #package-box {
     background: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
+    margin-left: 30%;
 }
 
 #package-box img {
@@ -270,9 +272,9 @@ button {
 }
 
 #right-section {
-    width: 60%;
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    border-left: 6px solid#e27361;
+    margin-top: 2%;
 }
 
 #metrics {
@@ -301,3 +303,4 @@ button {
 .highlight {
     background: linear-gradient(to right, #dff2ff, #ffefe1);
 }
+
