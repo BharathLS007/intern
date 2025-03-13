@@ -324,8 +324,8 @@ button {
  .heading1{
     display: flex;
     justify-content: center;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1.11;
     flex-direction: row;
-    font-weight: lighter;
+    font-weight: 100;
 }
