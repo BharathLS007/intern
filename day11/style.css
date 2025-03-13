@@ -304,3 +304,28 @@ button {
     background: linear-gradient(to right, #dff2ff, #ffefe1);
 }
 
+/*page 5*/
+.mainhead{
+    margin-top: 5%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: satoshi,arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.11;
+    flex-direction: row;
+    
+}
+.lorem{
+    margin-top: 3%;
+}
+ .heading1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 1.11;
+    flex-direction: row;
+    font-weight: lighter;
+}
