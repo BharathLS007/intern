@@ -367,6 +367,7 @@ button {
 /*page 5*/
 .mainhead{
     margin-top: 5%;
+    
 }
 .heading{
     display: flex;
@@ -388,6 +389,7 @@ button {
     line-height: 1.11;
     flex-direction: row;
     font-weight: 100;
+    
 }
 
 .stats-section {
@@ -395,7 +397,10 @@ button {
     gap: 20px;
     justify-content: center;
     align-items: center;
-
+    border-bottom:6px solid#e27361 ;
+    width: 40%;
+    margin-left: 30%;
+    margin-top:3%;
 }
 .stats-card {
     width: 200px;
@@ -407,7 +412,6 @@ button {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     
-    border-bottom:6px solid#e27361 ;
 } 
 
 .stats-card:hover {
