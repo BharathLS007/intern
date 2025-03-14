@@ -283,7 +283,7 @@ background-color: rgb(194, 91, 17);
 }
 
 #left-section {
-    width: 40%;
+    width: 50%;
     padding: 20px;
     margin-top: 1%;
 }
@@ -335,19 +335,20 @@ button {
     display: flex;
     border-left: 6px solid#e27361;
     margin-top: 2%;
+    
 }
 
 #metrics {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
 }
 
 .box {
-    width: 70%;
+    width: 100%;
     background: #eee;
-    padding: 20px;
+    padding: 20px 200px 100px 40px;
     font-size: 24px;
     font-weight: bold;
     border-radius: 8px;
@@ -398,13 +399,13 @@ button {
     justify-content: center;
     align-items: center;
     border-bottom:6px solid#e27361 ;
-    width: 40%;
-    margin-left: 30%;
     margin-top:3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .stats-card {
-    width: 200px;
-    height: 250px;
+    width: 1000px;
+    height: 550px;
     background: #f8f8f8;
     text-align: center;
     padding: 30px;
@@ -413,6 +414,7 @@ button {
     transition: transform 0.3s ease-in-out;
     
 } 
+
 
 .stats-card:hover {
     transform: translateY(-5px);
@@ -435,3 +437,20 @@ button {
 }
 
 /*update&*/
+
+/*page6*/
+
+.page6 .container{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+h3{
+    font-size:34px ;
+}
+.page6 p{
+    font-size: 20px;
+    font-weight: lighter;
+}
