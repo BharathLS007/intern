@@ -484,14 +484,3 @@ h3{
 
 
 /*page 7*/
-
-.sound{
-    background-position: 90%,0 0 ;
-    background-size: 400px,auto;
-    display: block;
-    background-repeat: no-repeat;
-    padding: 80px 100px;
-    background-image: url("./pics/background1.png");
-    background-size: cover;
-    border-radius: 12px;
-}
