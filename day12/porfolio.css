@@ -139,8 +139,6 @@ background-color: rgb(194, 91, 17);
 .ourfeature{
     display:flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     padding: 128px 0px 100px;
 }
@@ -149,13 +147,6 @@ background-color: rgb(194, 91, 17);
     justify-content: space-evenly; 
     align-items: center;
 }
-/* .taskprogressimg{
-    width: 659px;
-    height: 500px;
-   padding: 90px;
-   background-color: #c2cfff;
-   background-image: url("./pics/background1.png");
-} */
 .solutioncard1{
     background-position: 90%, 0 0;
     background-size: 400px,auto;
@@ -484,3 +475,59 @@ h3{
 
 
 /*page 7*/
+
+
+/*page 8*/
+
+
+.page8{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 128px 0px 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.page8 h1{
+        font-size: 65px;    
+}
+
+.page8 h6{
+    font-size: 20px;    
+}
+
+.pic1{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #000;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.pic1 img{
+    border-radius: 12px;
+}
+
+.Technology{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.date{
+    color: white;
+}
+
+.pic2{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.pic2 img {
+    border-radius: 20px;
+}
