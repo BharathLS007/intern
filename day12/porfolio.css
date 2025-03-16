@@ -596,10 +596,11 @@ h3{
 
 
 /*footer*/
-
+footer{
+    background-color: #000;
+}
 .sect{
     display: flex;
-    background-color: #000;
     margin-top: 3%;
     color: white;
     font-size: 20px;
@@ -620,4 +621,21 @@ h3{
 }
 .cont2 span{
     color: #e27361;
+}
+
+
+.BIGLOGO{
+
+    color: #e27361;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background-image: url("./pics/background1.png");
+    background-position: 50%;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 0;
+    font-size: 12rem;
+    font-weight: 600;
+    line-height: 1;
 }
