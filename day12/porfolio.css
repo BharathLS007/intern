@@ -593,3 +593,31 @@ h3{
     font-size: 20px;
     padding: 0 10px 20px 10px;
 }
+
+
+/*footer*/
+
+.sect{
+    display: flex;
+    background-color: #000;
+    margin-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+.cont1{
+    margin-left: 2%;
+    margin-right:25%;
+}
+
+.cont2{
+    display: flex;text-align: left;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.space{
+    margin-bottom: 20px;
+}
+.cont2 span{
+    color: #e27361;
+}
