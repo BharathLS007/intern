@@ -182,8 +182,7 @@ background-color: rgb(194, 91, 17);
 }
 .cardss{
     display: flex;
-    /* margin-left: 10px; */
-    /* justify-content: space-between; */
+    margin-left: 3%;
 
 }
 .cards{
