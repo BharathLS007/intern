@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+
+
+.page6 .container{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+h3{
+    font-size:30px ;
+}
+
+
+.page6 p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+.row li{
+    font-size: 16px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 50px;
+}
+.sound2{
+    background-position: 90%, 0 0;
+    background-size: 300px,auto;
+    height: 380px;
+    display: block;
+    background-repeat: no-repeat;
+    padding:  40px 50px;
+    background-image: url("../day12/pics/background1.png");
+    background-size: cover;
+    border-radius: 12px;
+    margin-right: 2%;
+}
+
+.row2{
+    margin-left: 15%;
+}

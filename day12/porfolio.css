@@ -613,7 +613,7 @@ footer{
 .cont2{
     display: flex;text-align: left;
     margin-top: 3%;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 .space{
     margin-bottom: 20px;
@@ -638,3 +638,5 @@ footer{
     font-weight: 600;
     line-height: 1;
 }
+
+
