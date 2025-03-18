@@ -76,7 +76,7 @@ nav.scrolled {
     cursor: pointer;
 }
 
-/* media query */
+/* media query 
 @media (max-width: 768px) {
     .links {
         display: none;
@@ -103,4 +103,33 @@ nav.scrolled {
         font-size: 24px;
         cursor: pointer;
     }
+}*/
+
+.container{
+    margin-top: 30%;
+    margin-left: 10%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.Contents{
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.para{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.check span{
+    border-radius: 20px;
+    line-height: 50px;
+}
+
+.col-right{
+    margin-left: 15%;
+}
+
+
