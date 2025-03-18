@@ -132,4 +132,19 @@ nav.scrolled {
     margin-left: 15%;
 }
 
+.hero2 .containers{
+    background-color: black;
+    color: white;
+    display: flex;
+}
 
+
+.hero2 .containers img{
+    width: 800px;
+    height:700px;
+}
+
+.col-left{
+    margin-left: 5%;
+    margin-top: 5%;
+}
