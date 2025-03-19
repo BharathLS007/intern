@@ -104,6 +104,11 @@ nav.scrolled {
         font-size: 24px;
         cursor: pointer;
     }
+    .hero2 .containers{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
 .container{
