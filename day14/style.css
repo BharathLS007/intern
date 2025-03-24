@@ -187,10 +187,15 @@ nav.scrolled {
         display: flex;
         flex-wrap: wrap;
     }
-    .hero4 .containers{
+       .hero4 .containers{
         display: flex;
         flex-wrap: wrap;
-    }
+        align-items: flex-start;
+       }
+
+       .colorcoderight{
+        
+       }
 }
 
 
@@ -201,12 +206,14 @@ nav.scrolled {
 }
 
 
+
+
 .hero4 .contact{
     margin-left: 15%;
 }
 .hero4 .colorcode{
     background-color: rgb(242, 136, 61);
-    width: 45%;
+    width: 700px;
 }
 .hero4 .spaces{
   margin-top: 25%;
@@ -214,8 +221,6 @@ nav.scrolled {
 
 .hero4 .cont{
     margin-top: 10%;
-}
-.hero4 .col-left{
 }
 
 .hero4 h1{
@@ -234,7 +239,7 @@ nav.scrolled {
 
 .hero4 .colorcoderight{
     background-color: blue;
-    width: 55%;
+    width: 812px;
 }
 .hero4 .names{
     display: flex;
