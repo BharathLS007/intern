@@ -196,121 +196,150 @@ nav.scrolled {
        .colorcoderight{
         
        }
-}
-
-
-.hero4 .containers{
+}/* General Styling */
+.hero4 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-
-
-
-.hero4 .contact{
-    margin-left: 15%;
-}
-.hero4 .colorcode{
-    background-color: rgb(242, 136, 61);
-    width: 700px;
-}
-.hero4 .spaces{
-  margin-top: 25%;
-}
-
-.hero4 .cont{
-    margin-top: 10%;
-}
-
-.hero4 h1{
-    font-size: 72px;
-    font-weight: 200;
-}
-
-.hero4 p{
-    font-size: 18px;
-}
-
-.hero4 .contdown{
-    margin-bottom: 20%;
-}
-
-
-.hero4 .colorcoderight{
-    background-color: blue;
-    width: 812px;
-}
-.hero4 .names{
-    display: flex;
-    margin-left: 5%;
-   
-}
-form
-{
-    margin-top: 15%;
-}
-.hero4 .files{
-   font-size: 30px;
-   font-weight: light;
-   
-}
-
-.fieldswrapper{
-    flex-direction: column;
-    gap: 20px;
+    justify-content: center;
     align-items: center;
-    
+    text-align: center;
+  
 }
 
+.hero4 .containers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
 
-.textfield{
+.hero4 .colorcode, .hero4 .colorcoderight {
+    flex: 1 1 100%; 
+    padding: 40px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero4 .colorcode {
+    background-color: rgb(242, 136, 61);
+    color: white;
+}
+
+.hero4 .colorcoderight {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero4 .contact h1 {
+    font-size: 48px;
+    font-weight: 300;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.hero4 .contact p {
+    font-size: 18px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.fieldswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.filedwrap {
+    flex: 1 1 45%; 
+    min-width: 200px;
+    text-align: left;
+}
+
+.textfield, .textfield1, .textfield2 {
+    width: 100%;
     border-radius: 10px;
     color: white;
-    background-color: #0000;
-    border: 1px solid#ffffff4d;
-    min-height: 58px;
-    margin-bottom: 30px;
-    padding: 16px 20px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
     font-size: 16px;
-    line-height: 1.2em;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
-
-.textfield1{
-    border-radius: 10px;
-    color: white;
-    background-color: #0000;
-    border: 1px solid#ffffff4d;
-    min-height: 58px;
-    margin-bottom: 30px;
-    padding: 16px 20px;
-    font-size: 16px;
-    line-height: 1.2em;
-    margin-left: 8%;
+@media screen and (min-width: 1024px) {
+    .hero4 .colorcode, .hero4 .colorcoderight {
+        flex: 1 1 50%; 
+    }
 }
 
-.textfield2{
-    border-radius: 10px;
-    color: white;
-    background-color: #0000;
-    border: 1px solid#ffffff4d;
-    min-height: 58px;
-    margin-bottom: 30px;
-    padding: 20% 27%;
-    font-size: 16px;
-    line-height: 1.2em;
-    margin-left: 6%;
-}
-.details{
-    color: white;
+@media screen and (max-width: 1024px) {
+    .hero4 .contact h1 {
+        font-size: 42px;
+    }
+    .hero4 .contact p {
+        font-size: 16px;
+    }
+    .hero4 .colorcode, .hero4 .colorcoderight {
+        padding: 30px;
+    }
 }
 
-.details1{
-    color: white;
-    margin-left: 8%;
+@media screen and (max-width: 768px) {
+    .hero4 {
+        flex-direction: column;
+    }
+    .hero4 .contact h1 {
+        font-size: 32px;
+    }
+    .hero4 .contact p {
+        font-size: 14px;
+    }
+    .hero4 .colorcode, .hero4 .colorcoderight {
+        padding: 20px;
+    }
+    .names {
+        flex-direction: column;
+        align-items: center;
+    }
+    .filedwrap {
+        flex: 1 1 100%; 
+        text-align: center;
+    }
+    .textfield, .textfield1, .textfield2 {
+        width: 90%;
+        padding: 10px;
+    }
 }
 
-.filedwraps{
-    margin-left: 5%;
+@media screen and (max-width: 480px) {
+    .hero4 .contact h1 {
+        font-size: 28px;
+    }
+    .hero4 .contact p {
+        font-size: 12px;
+    }
+    .textfield, .textfield1, .textfield2 {
+        width: 100%;
+        padding: 8px;
+    }
 }
