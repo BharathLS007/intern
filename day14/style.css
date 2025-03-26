@@ -255,7 +255,6 @@ form {
 .fieldswrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
     width: 100%;
 }
@@ -328,18 +327,5 @@ form {
     .textfield, .textfield1, .textfield2 {
         width: 90%;
         padding: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero4 .contact h1 {
-        font-size: 28px;
-    }
-    .hero4 .contact p {
-        font-size: 12px;
-    }
-    .textfield, .textfield1, .textfield2 {
-        width: 100%;
-        padding: 8px;
     }
 }
